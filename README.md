@@ -42,6 +42,54 @@ Clicar em "login" sem preencher os campos e verificar se o alerta de erro é exi
 
 ---
 
+## 🧩 Passos para Clonar e Rodar o Projeto
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone <https://github.com/ravellathuany/projeto_testes_ia_cypress.git>
+   ```
+
+2. **Instalar as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Abrir o Cypress:**
+   ```bash
+   npx cypress open
+   ```
+   ou, para execução em modo headless:
+   ```bash
+   npx cypress run
+   ```
+
+4. **Selecionar o teste desejado** e executar.
+
+---
+
+## Estrutura de Pastas:
+
+```plaintext
+projeto_testes_ia_cypress/
+├── README.md
+├── .gitignore
+├── cypress.config.js
+├── package.json
+├── package-lock.json
+├── cypress/
+│   ├── downloads/
+│   ├── e2e/
+│   │   └── login/
+│   │       └── login.cy.js
+│   ├── fixtures/
+│   │   └── user.json
+│   └── support/
+│       ├── commands.js
+│       └── e2e.js
+```
+
+---
+
 ## Diagrama:
 <img width="541" height="174" alt="image" src="https://github.com/user-attachments/assets/68137e37-15ed-424a-84a6-25e6bd6ac3d9" />
 
